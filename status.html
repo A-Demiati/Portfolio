@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Status</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Inline styles for specific chart values ensuring they work immediately */
+        .pie-1 {
+            background: conic-gradient(var(--accent-color) 0% 75%, transparent 75% 100%);
+        }
+
+        .pie-2 {
+            background: conic-gradient(#3a0ca3 0% 90%, transparent 90% 100%);
+        }
+
+        .pie-3 {
+            background: conic-gradient(#4cc9f0 0% 60%, transparent 60% 100%);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Port<span class="text-accent">folio.</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="status.html" class="active">Status</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header section-padding text-center">
+            <div class="container">
+                <h1>My <span class="text-accent">Status</span></h1>
+                <p class="text-muted">Analytics and Performance overview.</p>
+            </div>
+        </section>
+
+        <!-- Social Statistics -->
+        <section class="social-stats section-padding" style="padding-top: 0;">
+            <div class="container">
+                <div class="social-stats-grid">
+
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/AhmadMDemiati/" target="_blank" rel="noopener noreferrer" class="social-card facebook fade-in-up" style="text-decoration: none; color: inherit;">
+                        <i class="fab fa-facebook"></i>
+                        <span class="stat-label">Follow on Facebook</span>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/ahmad_demiati/" target="_blank" rel="noopener noreferrer" class="social-card instagram fade-in-up" style="text-decoration: none; color: inherit;">
+                        <i class="fab fa-instagram"></i>
+                        <span class="stat-label">Follow on Instagram</span>
+                    </a>
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/ahmad-demiati-a6000a236/" target="_blank" rel="noopener noreferrer" class="social-card linkedin fade-in-up" style="text-decoration: none; color: inherit;">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span class="stat-label">Connect on LinkedIn</span>
+                    </a>
+
+                    <!-- GitHub -->
+                    <a href="https://github.com/A-Demiati" target="_blank" rel="noopener noreferrer" class="social-card github fade-in-up" style="text-decoration: none; color: inherit;">
+                        <i class="fab fa-github"></i>
+                        <span class="stat-label">Follow on GitHub</span>
+                    </a>
+
+                </div>
+
+                <!-- Charts Section -->
+                <div class="charts-grid">
+
+                    <!-- Chart 1: Project Completion -->
+                    <div class="chart-card fade-in-up">
+                        <h3>Projects Success Rate</h3>
+                        <div class="pie-chart pie-1" data-percent="98%"></div>
+                        <p class="text-muted">Consistently delivering high quality.</p>
+                    </div>
+
+                    <!-- Chart 2: Client Satisfaction -->
+                    <div class="chart-card fade-in-up">
+                        <h3>Client Satisfaction</h3>
+                        <div class="pie-chart pie-2" data-percent="100%"></div>
+                        <p class="text-muted">5-Star reviews across platforms.</p>
+                    </div>
+
+                    <!-- Chart 3: Skill Growth (Bar Chart) -->
+                    <div class="chart-card fade-in-up">
+                        <h3>Monthly Activity</h3>
+                        <div class="bar-chart">
+                            <div class="bar" style="height: 60%"><span>Mon</span></div>
+                            <div class="bar" style="height: 80%"><span>Tue</span></div>
+                            <div class="bar" style="height: 45%"><span>Wed</span></div>
+                            <div class="bar" style="height: 90%"><span>Thu</span></div>
+                            <div class="bar" style="height: 75%"><span>Fri</span></div>
+                        </div>
+                        <p class="text-muted">Github commits this week.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="logo">Port<span class="text-accent">folio.</span></div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/ahmad_demiati/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/AhmadMDemiati/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/A-Demiati" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ahmad-demiati-a6000a236/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>&copy; <span id="current-year"></span> Ahmad Demiati. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
