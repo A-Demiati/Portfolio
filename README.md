@@ -97,9 +97,9 @@ Edit CSS variables in `css/style.css`:
 
 ## 📱 Social Media Links
 
-- Facebook: https://www.facebook.com/profile.php?id=100009163146117
+- Facebook: https://www.facebook.com/AhmadMDemiati/
 - Instagram: https://www.instagram.com/ahmad_demiati/
-- LinkedIn: https://www.linkedin.com/in/ahmad-demiati-87065a202/
+- LinkedIn: https://www.linkedin.com/in/ahmad-demiati-a6000a236/
 - GitHub: https://github.com/A-Demiati
 
 ## 📧 Contact
