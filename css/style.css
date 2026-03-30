@@ -872,3 +872,50 @@ textarea.form-control {
         left: 21px;
     }
 }
+.no-top-padding {
+    padding-top: 0;
+}
+/* CENTER CONTACT PAGE */
+.contact-section .contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.centered-contact {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    background: var(--bg-card);
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+}
+
+/* Align items nicely */
+.centered-contact .contact-info-item {
+    justify-content: center;
+    text-align: left;
+}
+
+/* Buttons spacing */
+.contact-actions {
+    margin-top: 30px;
+}
+
+.contact-actions .btn {
+    margin: 10px;
+}
+/* REMOVE INLINE STYLES REPLACEMENT */
+.no-top-padding {
+    padding-top: 0;
+}
+
+.about-text {
+    margin-bottom: 20px;
+    color: var(--text-muted);
+}
+
+/* SKILL WIDTH CLASSES */
+.skill-95 { width: 95%; }
+.skill-85 { width: 85%; }
+.skill-80 { width: 80%; }

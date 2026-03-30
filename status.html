@@ -93,36 +93,143 @@
                 </div>
 
                 <!-- Charts Section -->
-                <div class="charts-grid">
+<!DOCTYPE html>
+<html lang="en">
 
-                    <!-- Chart 1: Project Completion -->
-                    <div class="chart-card fade-in-up">
-                        <h3>Projects Success Rate</h3>
-                        <div class="pie-chart pie-1" data-percent="98%"></div>
-                        <p class="text-muted">Consistently delivering high quality.</p>
-                    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Status</title>
 
-                    <!-- Chart 2: Client Satisfaction -->
-                    <div class="chart-card fade-in-up">
-                        <h3>Client Satisfaction</h3>
-                        <div class="pie-chart pie-2" data-percent="100%"></div>
-                        <p class="text-muted">5-Star reviews across platforms.</p>
-                    </div>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
 
-                    <!-- Chart 3: Skill Growth (Bar Chart) -->
-                    <div class="chart-card fade-in-up">
-                        <h3>Monthly Activity</h3>
-                        <div class="bar-chart">
-                            <div class="bar" style="height: 60%"><span>Mon</span></div>
-                            <div class="bar" style="height: 80%"><span>Tue</span></div>
-                            <div class="bar" style="height: 45%"><span>Wed</span></div>
-                            <div class="bar" style="height: 90%"><span>Thu</span></div>
-                            <div class="bar" style="height: 75%"><span>Fri</span></div>
-                        </div>
-                        <p class="text-muted">Github commits this week.</p>
-                    </div>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-                </div>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo">Ahmad<span class="text-accent">.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="status.html" class="active">Status</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<!-- HEADER -->
+<section class="page-header section-padding text-center">
+    <div class="container">
+        <h1>What I'm <span class="text-accent">Doing</span></h1>
+        <p class="text-muted">A real-time snapshot of my current focus.</p>
+    </div>
+</section>
+
+<!-- CURRENT WORK -->
+<section class="section-padding no-top-padding">
+    <div class="container">
+
+        <div class="services-grid">
+
+            <!-- CURRENT PROJECT -->
+            <div class="service-card fade-in-up">
+                <i class="fas fa-code-branch"></i>
+                <h3>Current Focus</h3>
+                <p>
+                    Improving and restructuring my <strong>Tasks & Orders System</strong> to make it more scalable,
+                    maintainable, and production-ready.
+                </p>
+            </div>
+
+            <!-- LEARNING -->
+            <div class="service-card fade-in-up">
+                <i class="fas fa-brain"></i>
+                <h3>Currently Learning</h3>
+                <p>
+                    Deepening my backend and system design skills,
+                    focusing on performance optimization and scalable architecture.
+                </p>
+            </div>
+
+            <!-- GOAL -->
+            <div class="service-card fade-in-up">
+                <i class="fas fa-rocket"></i>
+                <h3>Next Goal</h3>
+                <p>
+                    Building a SaaS product and launching a real-world system
+                    that solves a clear business problem.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- TECH STACK -->
+<section class="section-padding">
+    <div class="container">
+
+        <div class="section-header text-center">
+            <h2>Tech <span class="text-accent">Stack</span></h2>
+            <p class="text-muted">Technologies I actively use</p>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card fade-in-up">
+                <i class="fas fa-database"></i>
+                <h3>Backend & Database</h3>
+                <p>Oracle APEX, PL/SQL, PostgreSQL, System Design</p>
+            </div>
+
+            <div class="service-card fade-in-up">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile</h3>
+                <p>Flutter, Dart, Cross-platform apps</p>
+            </div>
+
+            <div class="service-card fade-in-up">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Development</h3>
+                <p>Python, C++, ASP.NET, Web Technologies</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+    </div>
+</section>
+
+</main>
+
+
+<script src="js/main.js"></script>
+</body>
+
+</html>
             </div>
         </section>
 

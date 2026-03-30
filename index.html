@@ -3,157 +3,213 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Home</title>
-    <!-- Google Fonts -->
+    <title>Ahmad Demiati | Software Engineer</title>
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
+
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom CSS -->
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <nav>
-                <a href="index.html" class="logo">Port<span class="text-accent">folio.</span></a>
-                <ul class="nav-links">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="status.html">Status</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <div class="mobile-menu-btn">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Main Content -->
-    <main>
-        <!-- Hero Section -->
-        <section class="hero section-padding">
-            <div class="container hero-content">
-                <div class="hero-text fade-in-up">
-                    <h4>Hello, I'm</h4>
-                    <h1>Ahmad <span class="text-accent">Demiati</span></h1>
-                    <p>Recent Computer Science engineering graduate with expertise in Oracle APEX, database-driven applications, and full-stack development.</p>
-                    <div class="hero-btns">
-                        <a href="portfolio.html" class="btn btn-primary">View Work</a>
-                        <a href="contact.html" class="btn btn-outline">Contact Me</a>
-                    </div>
-                </div>
-                <div class="hero-image fade-in-up">
-                    <div class="img-placeholder">
-                        <!-- Placeholder for hero image -->
-                        <!--<i class="fas fa-code">-->
-                            <img src="./images/ME.jpg" width="500px" height="500px" style="border-radius: 200px 0px 200px 0px; object-fit: cover;" alt="Ahmad Demiati">
-                       <!--</i>-->
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- What I Do Section -->
-        <section class="what-i-do section-padding">
-            <div class="container">
-                <div class="section-header text-center fade-in-up">
-                    <h2>What I <span class="text-accent">Do</span></h2>
-                    <p>High quality services for your web needs</p>
-                </div>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <i class="fas fa-database"></i>
-                        <h3>Oracle APEX Development</h3>
-                        <p>Building and customizing data-centric applications with Oracle APEX, PL/SQL, and database-driven solutions.</p>
-                    </div>
-                    <div class="service-card">
-                        <i class="fas fa-mobile-alt"></i>
-                        <h3>Mobile App Development</h3>
-                        <p>Creating cross-platform mobile applications using Dart and Flutter frameworks with advanced proficiency.</p>
-                    </div>
-                    <div class="service-card">
-                        <i class="fas fa-laptop-code"></i>
-                        <h3>Full-Stack Development</h3>
-                        <p>Developing scalable web applications using Python, ASP.NET 6, HTML/CSS/JavaScript, and modern frameworks.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Recent Work Section -->
-<section class="recent-work section-padding">
+<header>
     <div class="container">
-        <div class="section-header text-center fade-in-up">
-            <h2>Recent <span class="text-accent">Work</span></h2>
-            <p>Some of my latest projects</p>
+        <nav>
+            <a href="index.html" class="logo">Ahmad<span class="text-accent">.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="status.html">Status</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero section-padding">
+    <div class="container hero-content">
+
+        <div class="hero-text fade-in-up">
+            <h4>Hello, I'm</h4>
+            <h1>Ahmad <span class="text-accent">Demiati</span></h1>
+
+            <p>
+                Software Engineer specializing in 
+                <strong>Oracle APEX</strong>, 
+                <strong>Flutter mobile apps</strong>, 
+                and <strong>database-driven systems</strong>.
+            </p>
+
+            <div class="hero-btns">
+                <a href="portfolio.html" class="btn btn-primary">View Projects</a>
+                <a href="contact.html" class="btn btn-outline">Contact Me</a>
+            </div>
         </div>
-        <div class="projects-grid">
-            <!-- Project 1 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <i class="fas fa-users-cog"></i>
-                </div>
-                <div class="project-info">
-                    <h3>Senior Project - Workspace Management</h3>
-                    <p class="text-muted" style="margin-bottom: 10px;">AAUP (Jun 2025 - Jan 2026)</p>
-                    <a href="#" class="btn-link">View Project <i class="fas fa-arrow-right"></i></a>
-                </div>
+
+        <div class="hero-image fade-in-up">
+            <div class="img-placeholder">
+                <img src="./images/ME.jpg" alt="Ahmad Demiati">
             </div>
-            <!-- Project 2 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                <div class="project-info">
-                    <h3>Semi-ERP System</h3>
-                    <p class="text-muted" style="margin-bottom: 10px;">Freelance (Mar 2025 - Jun 2025)</p>
-                    <a href="#" class="btn-link">View Project <i class="fas fa-arrow-right"></i></a>
-                </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="what-i-do section-padding">
+    <div class="container">
+
+        <div class="section-header text-center fade-in-up">
+            <h2>What I <span class="text-accent">Do</span></h2>
+            <p>Solutions focused on real-world business needs</p>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <i class="fas fa-database"></i>
+                <h3>Oracle APEX Development</h3>
+                <p>Building scalable enterprise systems with Oracle APEX and PL/SQL.</p>
             </div>
-            <!-- Project 3 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <i class="fas fa-mobile-alt"></i>
-                </div>
-                <div class="project-info">
-                    <h3>Flutter Mobile Applications</h3>
-                    <p class="text-muted" style="margin-bottom: 10px;">Dart/Flutter Development</p>
-                    <a href="#" class="btn-link">View Project <i class="fas fa-arrow-right"></i></a>
-                </div>
+
+            <div class="service-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile App Development</h3>
+                <p>Developing cross-platform applications using Flutter.</p>
             </div>
+
+            <div class="service-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>System Development</h3>
+                <p>Designing business systems, automation tools, and backend solutions.</p>
+            </div>
+
         </div>
     </div>
 </section>
-        <!-- Creative Area (Custom Section) -->
-         <section class="creative-section section-padding">
-            <div class="container text-center">
-                 <h2>Let's create something <span class="text-accent">extraordinary</span> together.</h2>
-                 <p style="margin-top: 1rem; color: var(--text-muted);">Innovation is the calling card of the future.</p>
-            </div>
-         </section>
 
-    </main>
+<!-- REAL PROJECTS -->
+<section class="recent-work section-padding">
+    <div class="container">
 
-    <!-- Footer -->
-    <footer>
-        <div class="container footer-content">
-            <div class="logo">Port<span class="text-accent">folio.</span></div>
-            <div class="social-links">
-                <a href="https://www.facebook.com/AhmadMDemiati/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/ahmad_demiati/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/ahmad-demiati-a6000a236/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/A-Demiati" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-            </div>
-            <p>&copy; <span id="current-year"></span> Ahmad Demiati. All Rights Reserved.</p>
+        <div class="section-header text-center fade-in-up">
+            <h2>Featured <span class="text-accent">Projects</span></h2>
+            <p>Real systems I have developed</p>
         </div>
-    </footer>
 
-    <script src="js/main.js"></script>
+        <div class="projects-grid">
+
+            <!-- Office System -->
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fas fa-building"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Office Space Management</h3>
+                    <p class="text-muted">Flutter Mobile App</p>
+
+                    <a href="https://www.mediafire.com/file/vqg0fkrjgp6jjxx/app-release.apk/file"
+                       target="_blank" rel="noopener noreferrer"
+                       class="btn-link">
+                       Download APK <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Tasks System -->
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Tasks & Orders System</h3>
+                    <p class="text-muted">Business System</p>
+
+                    <a href="https://www.mediafire.com/file/ugxyf8dt7jugn4i/Tasks+and+orders+system.apk/file"
+                       target="_blank" rel="noopener noreferrer"
+                       class="btn-link">
+                       Download APK
+                    </a>
+                </div>
+            </div>
+
+            <!-- Pong -->
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Pong Game</h3>
+                    <p class="text-muted">Flutter Game</p>
+
+                    <a href="https://github.com/A-Demiati/Flutter-Pong-Game"
+                       target="_blank" rel="noopener noreferrer"
+                       class="btn-link">
+                       View Code <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="creative-section section-padding">
+    <div class="container text-center">
+        <h2>Let’s build something <span class="text-accent">impactful</span>.</h2>
+        <p class="text-muted" style="margin-top: 1rem;">
+            Focused on real solutions, not just code.
+        </p>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <div class="container footer-content">
+
+        <div class="logo">Ahmad<span class="text-accent">.</span></div>
+
+        <div class="social-links">
+
+            <a href="https://www.facebook.com/AhmadMDemiati/" target="_blank" rel="noopener noreferrer" title="Facebook" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+
+            <a href="https://www.instagram.com/ahmad_demiati/" target="_blank" rel="noopener noreferrer" title="Instagram" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ahmad-demiati-a6000a236/" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://github.com/A-Demiati" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+
+        </div>
+
+        <p>&copy; <span id="current-year"></span> Ahmad Demiati. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>

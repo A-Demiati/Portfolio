@@ -4,145 +4,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - My Work</title>
-    <!-- Google Fonts -->
+    <title>Portfolio - Ahmad Demiati</title>
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
-        rel="stylesheet">
-    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom CSS -->
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <nav>
-                <a href="index.html" class="logo">Port<span class="text-accent">folio.</span></a>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
-                    <li><a href="status.html">Status</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <div class="mobile-menu-btn">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </nav>
+<header>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo">Ahmad<span class="text-accent">.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="status.html">Status</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<section class="page-header section-padding text-center">
+    <div class="container">
+        <h1>My <span class="text-accent">Projects</span></h1>
+        <p class="text-muted">Real applications I have built and worked on.</p>
+    </div>
+</section>
+
+<section class="portfolio-gallery section-padding no-top-padding">
+    <div class="container">
+
+        <div class="portfolio-filter fade-in-up">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="oracle-apex">Oracle APEX</button>
+            <button class="filter-btn" data-filter="web-dev">Systems</button>
+            <button class="filter-btn" data-filter="mobile-apps">Mobile Apps</button>
         </div>
-    </header>
 
-    <main>
-        <!-- Page Header -->
-        <section class="page-header section-padding text-center">
-            <div class="container">
-                <h1>My <span class="text-accent">Portfolio</span></h1>
-                <p class="text-muted">A collection of my recent projects.</p>
-            </div>
-        </section>
+        <div class="projects-grid">
 
-        <!-- Portfolio Gallery -->
-        <section class="portfolio-gallery section-padding" style="padding-top: 0;">
-            <div class="container">
+            <!-- Office System -->
+            <div class="project-card mobile-apps fade-in-up">
+                <div class="project-img"><i class="fas fa-building"></i></div>
+                <div class="project-info">
+                    <h3>Office Space Management System</h3>
+                    <p class="text-muted">Flutter Mobile App</p>
+                    <p>Manages workspace reservations and office resources.</p>
 
-                <!-- Filter Nav -->
-                <div class="portfolio-filter fade-in-up">
-                    <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="oracle-apex">Oracle APEX</button>
-                    <button class="filter-btn" data-filter="web-dev">Web Development</button>
-                    <button class="filter-btn" data-filter="mobile-apps">Mobile Apps</button>
-                </div>
+                    <a href="https://www.mediafire.com/file/vqg0fkrjgp6jjxx/app-release.apk/file"
+                       target="_blank" rel="noopener noreferrer"
+                       class="btn-link">
+                        Download APK <i class="fas fa-download"></i>
+                    </a>
 
-                <!-- Projects Grid -->
-                <div class="projects-grid">
-
-                    <!-- Senior Project -->
-                    <div class="project-card oracle-apex web-dev fade-in-up">
-                        <div class="project-img">
-                            <i class="fas fa-users-cog"></i>
-                        </div>
-                        <div class="project-info">
-                            <h3>Workspace Management System</h3>
-                            <p class="text-muted" style="margin-bottom: 10px;">Oracle APEX / Database</p>
-                            <a href="#" class="btn-link">View Project <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Semi-ERP Project -->
-                    <div class="project-card web-dev oracle-apex fade-in-up">
-                        <div class="project-img">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <div class="project-info">
-                            <h3>Semi-ERP System</h3>
-                            <p class="text-muted" style="margin-bottom: 10px;">Oracle APEX / Full-Stack</p>
-                            <a href="#" class="btn-link">View Project <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Mobile App Project -->
-                    <div class="project-card mobile-apps fade-in-up">
-                        <div class="project-img">
-                            <i class="fab fa-flutter"></i>
-                        </div>
-                        <div class="project-info">
-                            <h3>Flutter Mobile Applications</h3>
-                            <p class="text-muted" style="margin-bottom: 10px;">Mobile Development</p>
-                            <a href="#" class="btn-link">View Project <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Database Solutions -->
-                    <div class="project-card web-dev oracle-apex fade-in-up">
-                        <div class="project-img">
-                            <i class="fas fa-database"></i>
-                        </div>
-                        <div class="project-info">
-                            <h3>Database-Driven Applications</h3>
-                            <p class="text-muted" style="margin-bottom: 10px;">PL/SQL / Oracle</p>
-                            <a href="#" class="btn-link">View Project <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Automation Project -->
-                    <div class="project-card web-dev fade-in-up">
-                        <div class="project-img">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                        <div class="project-info">
-                            <h3>Automation & Testing</h3>
-                            <p class="text-muted" style="margin-bottom: 10px;">Python / Selenium</p>
-                            <a href="#" class="btn-link">View Project <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
+                    <small>Login: am1@gmail.com / 123456789</small>
                 </div>
             </div>
-        </section>
 
-    </main>
+            <!-- Pong -->
+            <div class="project-card mobile-apps fade-in-up">
+                <div class="project-img"><i class="fas fa-gamepad"></i></div>
+                <div class="project-info">
+                    <h3>Pong Game</h3>
+                    <p class="text-muted">Flutter Game</p>
+                    <p>Classic Pong game built using Flutter.</p>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container footer-content">
-            <div class="logo">Port<span class="text-accent">folio.</span></div>
-            <div class="social-links">
-                <a href="https://www.instagram.com/ahmad_demiati/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/AhmadMDemiati/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
-                <a href="https://github.com/A-Demiati" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/ahmad-demiati-a6000a236/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.mediafire.com/file/hexa382bkxjys2b/Pong_game.apk/file"
+                       target="_blank" rel="noopener noreferrer"
+                       class="btn-link">
+                        Download APK
+                    </a><br>
+
+                    <a href="https://github.com/A-Demiati/Flutter-Pong-Game"
+                       target="_blank" rel="noopener noreferrer"
+                       class="btn-link">
+                        View Code <i class="fab fa-github"></i>
+                    </a>
+                </div>
             </div>
-            <p>&copy; <span id="current-year"></span> Ahmad Demiati. All Rights Reserved.</p>
+
+            <!-- Tasks -->
+            <div class="project-card web-dev mobile-apps fade-in-up">
+                <div class="project-img"><i class="fas fa-tasks"></i></div>
+                <div class="project-info">
+                    <h3>Tasks & Orders System</h3>
+                    <p class="text-muted">Business System</p>
+                    <p>Manage tasks, orders, and employee operations.</p>
+
+                    <a href="https://www.mediafire.com/file/ugxyf8dt7jugn4i/Tasks+and+orders+system.apk/file"
+                       target="_blank" rel="noopener noreferrer"
+                       class="btn-link">
+                        Download APK
+                    </a>
+
+                    <p><small>Project suspended due to company restructuring.</small></p>
+                    <small>Login: amd55@gmail.com / 123456789</small>
+                </div>
+            </div>
+
+            <!-- Oracle -->
+            <div class="project-card oracle-apex fade-in-up">
+                <div class="project-img"><i class="fas fa-database"></i></div>
+                <div class="project-info">
+                    <h3>Library Management System</h3>
+                    <p class="text-muted">Oracle APEX</p>
+                    <p>Database-driven system for managing library operations.</p>
+
+                    <a href="https://oracleapex.com/ords/r/database_adham/database-project/home?session=0"
+                       target="_blank" rel="noopener noreferrer"
+                       class="btn-link">
+                        Live Demo <i class="fas fa-external-link-alt"></i>
+                    </a>
+
+                    <p><small>Shared with Eng. Adham Alnadi</small></p>
+                    <small>Login: admin / member / employee | 123456</small>
+                </div>
+            </div>
+
         </div>
-    </footer>
+    </div>
+</section>
 
-    <script src="js/main.js"></script>
+</main>
+
+<footer>
+    <div class="container footer-content">
+
+        <div class="logo">Ahmad<span class="text-accent">.</span></div>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/ahmad_demiati/" target="_blank" rel="noopener noreferrer" title="Instagram" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://www.facebook.com/AhmadMDemiati/" target="_blank" rel="noopener noreferrer" title="Facebook" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+
+            <a href="https://github.com/A-Demiati" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ahmad-demiati-a6000a236/" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+
+        <p>&copy; <span id="current-year"></span> Ahmad Demiati. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
-
 </html>

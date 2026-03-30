@@ -5,224 +5,237 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - About Me</title>
-    <!-- Google Fonts -->
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
-        rel="stylesheet">
-    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom CSS -->
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <nav>
-                <a href="index.html" class="logo">Port<span class="text-accent">folio.</span></a>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html" class="active">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="status.html">Status</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <div class="mobile-menu-btn">
-                    <i class="fas fa-bars"></i>
+<header>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo">Ahmad<span class="text-accent">.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="status.html">Status</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<!-- PAGE HEADER -->
+<section class="page-header section-padding text-center">
+    <div class="container">
+        <h1>About <span class="text-accent">Me</span></h1>
+        <p class="text-muted">My journey, skills, and experience.</p>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="about section-padding no-top-padding">
+    <div class="container">
+        <div class="about-section">
+
+            <!-- IMAGE -->
+            <div class="about-img fade-in-up">
+                <img src="./images/2.jpg" alt="Ahmad Demiati">
+            </div>
+
+            <!-- INFO -->
+            <div class="about-info fade-in-up">
+                <h3>Computer Systems Engineer & Software Developer</h3>
+
+                <p class="about-text">
+                    I'm Ahmad Demiati, a Computer Science Engineering graduate from the Arab American University.
+                    I specialize in building scalable, data-driven systems using Oracle APEX, PL/SQL, and modern
+                    full-stack technologies.
+                </p>
+
+                <p class="about-text">
+                    My work spans enterprise systems, mobile applications using Flutter, and backend-driven solutions.
+                    I have developed semi-ERP systems, workspace management platforms, and automation tools,
+                    always focusing on performance, scalability, and real-world usability.
+                </p>
+
+                <!-- SKILLS -->
+                <div class="skills-container">
+                    <h4>Technical Skills</h4>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Oracle APEX & PL/SQL</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress skill-95"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Flutter & Dart</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress skill-95"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Python & C++</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress skill-85"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Web Development & ASP.NET</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress skill-80"></div>
+                        </div>
+                    </div>
+
                 </div>
-            </nav>
+            </div>
+
         </div>
-    </header>
+    </div>
+</section>
 
-    <main>
-        <!-- Page Header -->
-        <section class="page-header section-padding text-center" style="padding-bottom: 50px;">
-            <div class="container">
-                <h1>About <span class="text-accent">Me</span></h1>
-                <p class="text-muted">My journey, skills, and experiences.</p>
-            </div>
-        </section>
+<!-- EXPERIENCE -->
+<section class="experience section-padding">
+    <div class="container">
 
-        <!-- About & Skills Section -->
-        <section class="about section-padding" style="padding-top: 0;">
-            <div class="container">
-                <div class="about-section">
-                    <!-- Right: Photo (As requested, cards right and left, photo side by side with skills) -->
-                    <!-- Swapped order for visual balance if needed, but sticking to 2 col grid -->
-                    <div class="about-img fade-in-up">
-                        <!-- Placeholder for profile image -->
-                        <div
-                            style="background: #222; height: 500px; display: flex; align-items: center; justify-content: center; border-radius: 20px; overflow: hidden;">
-                           <img src="./images/2.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center 30%;" alt="Ahmad Demiati">
-                        </div>
-                    </div>
-
-                    <div class="about-info fade-in-up">
-                        <h3>I'm Ahmad Demiati, a Computer Science Engineer</h3>
-                        <p style="margin-bottom: 30px; color: var(--text-muted);">
-                            Recent Computer Science engineering graduate from Arab American University with a diverse background in software development and database management. I specialize in Oracle APEX development, mobile application development with Flutter, and building scalable, data-driven applications. My experience ranges from developing semi-ERP systems to creating comprehensive workspace management solutions. I'm passionate about solving complex problems and delivering high-quality software solutions.
-                        </p>
-
-                        <div class="skills-container">
-                            <h4>My Skills</h4>
-
-                            <!-- Skill 1 -->
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span>PL/SQL & Oracle APEX</span>
-                                    <span>95%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 95%"></div>
-                                </div>
-                            </div>
-
-                            <!-- Skill 2 -->
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span>Dart/Flutter</span>
-                                    <span>95%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 95%"></div>
-                                </div>
-                            </div>
-
-                            <!-- Skill 3 -->
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span>Python & C++</span>
-                                    <span>85%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 85%"></div>
-                                </div>
-                            </div>
-
-                            <!-- Skill 4 -->
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span>HTML/CSS/JavaScript & ASP.NET</span>
-                                    <span>80%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 80%"></div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Experience & Education Timeline -->
-        <section class="experience section-padding">
-            <div class="container">
-                <div class="section-header text-center">
-                    <h2>Experience & <span class="text-accent">Education</span></h2>
-                </div>
-
-                <div class="timeline">
-                    <!-- Item 1 (Left) - Current -->
-                    <div class="timeline-item left fade-in-up">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <span class="timeline-date">Jun 2025 - Jan 2026</span>
-                            <h3>Senior Project - AAUP</h3>
-                            <h4>Workspace Management System</h4>
-                            <p>Developed a comprehensive employee management and reservation system for rooms, desks, and workspace utilities. Focused on scalability and customization to meet diverse business demands.</p>
-                        </div>
-                    </div>
-
-                    <!-- Item 2 (Right) -->
-                    <div class="timeline-item right fade-in-up">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <span class="timeline-date">Mar 2025 - Jun 2025</span>
-                            <h3>Freelance Developer</h3>
-                            <h4>Semi-ERP System Development</h4>
-                            <p>Developed a comprehensive semi-ERP system managing employees, tasks, orders, and inventory. Created both employee and management platforms.</p>
-                        </div>
-                    </div>
-
-                    <!-- Item 3 (Left) -->
-                    <div class="timeline-item left fade-in-up">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <span class="timeline-date">2021 - 2024</span>
-                            <h3>Worker</h3>
-                            <h4>AL-ARZ Ice Cream Factory, Nablus</h4>
-                            <p>Managed pipelines and tanks, developed management expertise and responsibility. Handled tasks with significant financial consequences for the company.</p>
-                        </div>
-                    </div>
-
-                    <!-- Item 4 (Right) -->
-                    <div class="timeline-item right fade-in-up">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <span class="timeline-date">2019 - 2021</span>
-                            <h3>Sales Representative</h3>
-                            <h4>Success Factory</h4>
-                            <p>Promoted cryptocurrency and gained valuable experience in network marketing.</p>
-                        </div>
-                    </div>
-
-                    <!-- Item 5 (Left) -->
-                    <div class="timeline-item left fade-in-up">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <span class="timeline-date">2018 - 2026</span>
-                            <h3>Computer Science Engineering</h3>
-                            <h4>Arab American University</h4>
-                            <p>Comprehensive knowledge in programming, algorithms, database systems, mobile development, and quality assurance methodologies.</p>
-                        </div>
-                    </div>
-
-                    <!-- Item 6 (Right) -->
-                    <div class="timeline-item right fade-in-up">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <span class="timeline-date">2017 - 2019</span>
-                            <h3>Hardware Store Manager</h3>
-                            <h4>Al-READ Hardware Shop, Nablus</h4>
-                            <p>Gained experience in computer repair, hardware sales, and technical troubleshooting. Provided exceptional customer service.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Creative Section -->
-        <section class="creative-bio section-padding">
-            <div class="container">
-                <div class="creative-text-block fade-in-up">
-                    <p>I believe in building scalable solutions that can adapt to diverse business needs. From database-driven applications to mobile platforms, my focus is on creating software that makes a real impact while maintaining the flexibility to grow with changing requirements.</p>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container footer-content">
-            <div class="logo">Port<span class="text-accent">folio.</span></div>
-            <div class="social-links">
-                <a href="https://www.instagram.com/ahmad_demiati/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/AhmadMDemiati/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
-                <a href="https://github.com/A-Demiati" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/ahmad-demiati-a6000a236/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-            <p>&copy; <span id="current-year"></span> Ahmad Demiati. All Rights Reserved.</p>
+        <div class="section-header text-center">
+            <h2>Experience & <span class="text-accent">Education</span></h2>
         </div>
-    </footer>
 
-    <script src="js/main.js"></script>
+        <div class="timeline">
+
+            <div class="timeline-item left fade-in-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2025 - 2026</span>
+                    <h3>Senior Project</h3>
+                    <h4>Workspace Management System</h4>
+                    <p>
+                        Designed and developed a scalable system for managing employees, workspace reservations,
+                        and organizational resources with flexible customization.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item right fade-in-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2025</span>
+                    <h3>Freelance Developer</h3>
+                    <h4>Semi-ERP System</h4>
+                    <p>
+                        Built a semi-ERP platform managing tasks, orders, employees, and operations,
+                        improving workflow efficiency and control.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item left fade-in-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2021 - 2024</span>
+                    <h3>Operations Worker</h3>
+                    <h4>AL-ARZ Factory</h4>
+                    <p>
+                        Managed production systems and critical operations, developing strong responsibility,
+                        precision, and problem-solving skills.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item right fade-in-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2019 - 2021</span>
+                    <h3>Sales Representative</h3>
+                    <h4>Success Factory</h4>
+                    <p>
+                        Gained experience in communication, marketing strategies, and client engagement.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item left fade-in-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2018 - 2026</span>
+                    <h3>BSc Computer Systems Engineering</h3>
+                    <h4>Arab American University</h4>
+                    <p>
+                        Strong foundation in software engineering, databases, algorithms,
+                        mobile development, and system design.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- PERSONAL STATEMENT -->
+<section class="creative-section section-padding">
+    <div class="container text-center">
+        <h2>I build systems that <span class="text-accent">solve real problems</span>.</h2>
+        <p class="text-muted" style="margin-top: 15px;">
+            My focus is on creating scalable, efficient, and practical software solutions
+            that deliver real value to businesses and users.
+        </p>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <div class="container footer-content">
+
+        <div class="logo">Ahmad<span class="text-accent">.</span></div>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/ahmad_demiati/" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/AhmadMDemiati/" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/A-Demiati" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ahmad-demiati-a6000a236/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+        <p>&copy; <span id="current-year"></span> Ahmad Demiati. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 
 </html>
